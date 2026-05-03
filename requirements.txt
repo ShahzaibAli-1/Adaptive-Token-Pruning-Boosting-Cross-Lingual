@@ -2,12 +2,13 @@
 # Core dependencies
 
 # Deep Learning
-torch>=2.1.0
-torchvision>=0.16.0
+torch>=2.6.0
+torchvision>=0.21.0
+torchaudio>=2.6.0
 
 # Hugging Face ecosystem
 transformers>=4.38.0
-datasets>=2.18.0
+datasets>=2.18.0,<3.0.0
 tokenizers>=0.15.0
 accelerate>=0.27.0
 peft>=0.9.0
@@ -40,3 +41,11 @@ lxml>=5.1.0
 # Notebook utilities
 ipywidgets>=8.1.0
 jupyter>=1.0.0
+
+# Tokenization utilities
+sentencepiece>=0.1.99
+protobuf>=3.20.0
+tiktoken>=0.6.0
+
+# Environment
+python-dotenv>=1.0.0
